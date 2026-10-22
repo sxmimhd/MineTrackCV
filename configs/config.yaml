@@ -1,0 +1,19 @@
+
+project:
+  name: MineTrackCV
+
+model:
+  weights: 'C:\Users\samym\Desktop\Projects\SceneForgeCV\runs\detection\yolov8n_minecraft_mobs\weights\best.pt'
+  confidence: 0.25
+  image_size: 640
+  device: '0'
+
+tracking:
+  tracker: bytetrack.yaml
+
+video:
+  output_dir: runs/predictions
+  output_fps_fallback: 30
+
+monitoring:
+  save_csv: true
