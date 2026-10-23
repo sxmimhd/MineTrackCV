@@ -91,6 +91,8 @@ def main():
                 imgsz=image_size,
                 device=device,
                 verbose=False,
+                iou=0.85,
+                max_det=500,
             )
             inference_ms = (time.perf_counter() - inference_start) * 1000
 

@@ -21,7 +21,7 @@ backend/data/
 backend/.venv/
 venv/
 env/
-runs/
+runs/predictions
 .env
 .env.*
 !.env.example

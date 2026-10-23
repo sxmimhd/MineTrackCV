@@ -4,8 +4,8 @@ project:
 
 model:
   weights: 'C:\Users\samym\Desktop\Projects\SceneForgeCV\runs\detection\yolov8n_minecraft_mobs\weights\best.pt'
-  confidence: 0.15
-  image_size: 960
+  confidence: 0.05
+  image_size: 1536
   device: '0'
 
 tracking:
