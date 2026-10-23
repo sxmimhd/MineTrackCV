@@ -265,6 +265,3 @@ MineTrackCV demonstrates the integration of object detection, multi-object track
 
 The project prioritizes practical engineering and transparent evaluation over claiming perfect detection in highly crowded scenes.
 
-## License
-
-Add your chosen open-source license before publishing. MIT is one option if you want to permit broad reuse, modification, and distribution.
